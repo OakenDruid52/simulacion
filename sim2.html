@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>SIMULACION</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<strong>Carlos Edmundo Reyes Fernández</strong>
+									
+								</header>
+
+							<!-- Banner -->
+								<section>
+									<header class="main">
+										<h1>Simulador 2</h1>
+									</header>
+									<form method="POST" name="FORM1">
+										<table>
+											<tr>
+												<td><input type="text" id="rect1" value="" placeholder="base(rectangulo)" /></td>
+												<td><input type="text" id="rect2" value="" placeholder="altura(rectangulo)" /></td>
+												<td><input type="button" onclick="rectarea();" value="area de rectangulo"></td>
+											</tr>
+											<tr>
+												<td><input type="text" id="areainput" value="" placeholder="radio" /></td>
+												<td><input type="button" onclick="findarea();" value="area de circulo"></td>
+												<td><input type="button" onclick="findcircum();" value="circunferencia de circulo"></td>
+											</tr>
+											<tr>
+											<td><input type="text" id="cylinderheight" value="" placeholder="altura" />	</td>
+												<td><input type="button" onclick="cylarea();" value="volumen de cilindro"></td>
+												<td><input type="button" onclick="resetval();" value="borrar"></td>
+											</tr>
+										</table>
+										<textarea name="codegenerator" placeholder="ecuacion" rows="6"></textarea>
+									</form>
+									
+									
+									
+								</section>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search 
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>-->
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">INICIO</a></li>
+										<li>
+											<span class="opener">TAREAS</span>
+											<ul>
+												<li><a href="tar1.html">Tarea1</a></li>
+												<li><a href="tar2.html">Tarea2</a></li>
+												<li><a href="tar3.html">Tarea3</a></li>
+												<li><a href="tar4.html">Tarea4</a></li>
+												<li><a href="tar5.html">Tarea5</a></li>
+												<li><a href="tar6.html">Tarea6</a></li>
+												<li><a href="tar7.html">Tarea7</a></li>
+												<li><a href="tar8.html">Tarea8</a></li>
+												<li><a href="tar9.html">Tarea9</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">BIBLIOTECA</span>
+											<ul>
+												<li><a href="PDF1.pdf">Algoritmo de Dijkstra</a></li>
+												<li><a href="PDF2.pdf">Algoritmo de Ford-Fulkerson</a></li>
+												<li><a href="PDF3.pdf">Algoritmo de Prim</a></li>
+												<li><a href="PDF4.pdf">Algoritmo símplex</a></li>
+												<li><a href="PDF5.pdf">Análisis exploratorio de datos</a></li>
+												<li><a href="PDF6.pdf">Análisis multivariante</a></li>
+												<li><a href="PDF7.pdf">Contraste de hipótesis</a></li>
+												<li><a href="videos.html">Videos</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">SIMULADORES</span>
+											<ul>
+												<li><a href="sim1.html">Simulador1</a></li>
+												<li><a href="sim2.html">Simulador2</a></li>
+												<li><a href="sim3.html">Simulador3</a></li>
+												<li><a href="sim4.html">Simulador4</a></li>
+												<li><a href="sim5.html">Simulador5</a></li>
+												<li><a href="sim6.html">Simulador6</a></li>
+												<li><a href="sim7.html">Simulador7</a></li>
+												<li><a href="sim8.html">Simulador8</a></li>
+												<li><a href="sim9.html">Simulador9</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">ENLACES</span>
+											<ul>
+												<li><a href="https://escuelahdti.000webhostapp.com/Teoria/index.html">Alan</a></li>
+												<li><a href="https://appreciable-engine.000webhostapp.com/Simulacion/page4.html">Alejandra</a></li>
+												<li><a href="https://lagrimip2539.wixsite.com/alex601">Alejandro</a></li>
+												<li><a href="https://alexiscob97.wixsite.com/simulacion">Alexis</a></li>
+												<li><a href="https://felixtrabajos.000webhostapp.com/Simulacion/index.html">Felix</a></li>
+												<li><a href="https://javierperez121215.wixsite.com/teoriacomputacion">Javier</a></li>
+												<li><a href="https://krnhdzshz.wixsite.com/simulacion">Karen</a></li>
+												<li><a href="https://inalem99.wixsite.com/misitio22">Melani</a></li>
+												<li><a href="https://victorpaginateoria.000webhostapp.com/index/index/inicio.html">Victor</a></li>
+												<li><a href="https://mendezyuliana123.wixsite.com/teocom">Yuliana</a></li>
+												
+												
+												
+											</ul>
+										</li>
+										<li><a href="#">CONTACTO</a></li>
+										<li><a href="elements.html">quitar</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section> -->
+
+							<!-- Section 
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>-->
+
+							<!-- Footer 
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>-->
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+        function findarea(){
+radius = document.FORM1.areainput.value;
+radius2 = eval(radius*radius);
+answer = eval(Math.PI*Math.pow(radius,2))
+roundanswer = Math.round(answer);
+document.FORM1.codegenerator.value =
+ 'A = PIR^2\r'
++'A = PI x '+radius+'*'+radius+' \r'
++'A = PI x '+radius2+'\r'
++'A = '+answer+' \r'
++'A = '+roundanswer;
+}
+function findcircum(){
+radiuscir = document.FORM1.areainput.value;
+diameter = eval(radiuscir*2);
+ciranswer = eval(radiuscir*2*Math.PI);
+cirRoundanswer = Math.round(ciranswer);
+document.FORM1.codegenerator.value =
+ 'C = 2PIR\r'
++'C = PI x 2 x '+radiuscir+' \r'
++'C = PI x '+diameter+' \r'
++'C = '+ciranswer+' \r'
++'C = '+cirRoundanswer;
+}
+function rectarea(){
+side1 = document.FORM1.rect1.value;
+side2 = document.FORM1.rect2.value;
+rectanswer = eval(side1*side2);
+roundrect = Math.round(rectanswer);
+document.FORM1.codegenerator.value =
+ 'A = B x H\r'
++'A = '+side1+' x '+side2+' \r'
++'A = '+rectanswer+' \r'
++'A = '+roundrect
+}
+function cylarea(){
+cylradius = document.FORM1.areainput.value;
+sqradius = eval(cylradius*cylradius);
+cylheight = document.FORM1.cylinderheight.value;
+cylhr = eval(cylheight*sqradius);
+cylvolume = eval(Math.PI*cylradius*cylradius*cylheight);
+roundcyl = Math.round(cylvolume);
+document.FORM1.codegenerator.value =
+ 'V = PIR^2H\r'
++'V = PI x '+cylradius+' x '+cylradius+' x H \r'
++'V = PI x '+sqradius+' x H\r'
++'V = PI x '+sqradius+' x '+cylheight+' \r'
++'V = PI x '+cylhr+' \r'
++'V = '+cylvolume+' \r'
++'V = '+roundcyl;
+}
+function resetval(){
+document.FORM1.areainput.value = 'Radio de Circulo/Cilindro';
+document.FORM1.codegenerator.value = '';
+document.FORM1.cylinderheight.value = 'Altura de Cilindro';
+document.FORM1.rect1.value = 'Base';
+document.FORM1.rect2.value = 'altura';
+}
+    </script>
+
+	</body>
+</html>
