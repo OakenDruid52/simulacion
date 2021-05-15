@@ -32,28 +32,23 @@
 										<h1>Simulador 2</h1>
 									</header>
 									<form method="POST" name="FORM1">
-										<table>
-											<tr>
-												<td><input type="text" id="rect1" value="" placeholder="base(rectangulo)" /></td>
-												<td><input type="text" id="rect2" value="" placeholder="altura(rectangulo)" /></td>
-												<td><input type="button" onclick="rectarea();" value="area de rectangulo"></td>
-											</tr>
-											<tr>
-												<td><input type="text" id="areainput" value="" placeholder="radio" /></td>
-												<td><input type="button" onclick="findarea();" value="area de circulo"></td>
-												<td><input type="button" onclick="findcircum();" value="circunferencia de circulo"></td>
-											</tr>
-											<tr>
-											<td><input type="text" id="cylinderheight" value="" placeholder="altura" />	</td>
-												<td><input type="button" onclick="cylarea();" value="volumen de cilindro"></td>
-												<td><input type="button" onclick="resetval();" value="borrar"></td>
-											</tr>
-										</table>
+										<ul class="actions">
+											<li><input type="text" id="rect1" value="" placeholder="base(rectangulo)" /></li>
+											<li><input type="text" id="rect2" value="" placeholder="altura(rectangulo)" /></li>
+											<li><input type="button" onclick="rectarea();" value="area de rectangulo"></li>
+										</ul>
+										<ul class="actions">
+											<li><input type="text" id="areainput" value="" placeholder="radio" /></li>
+											<li><input type="button" onclick="findarea();" value="area de circulo"></li>
+											<li><input type="button" onclick="findcircum();" value="circunferencia de circulo"></li>
+										</ul>
+										<ul class="actions">
+										<li><input type="text" id="cylinderheight" value="" placeholder="altura" />	</li>
+											<li><input type="button" onclick="cylarea();" value="volumen de cilindro"></li>
+											<li><input type="button" onclick="resetval();" value="borrar"></li>
+										</ul>
 										<textarea name="codegenerator" placeholder="ecuacion" rows="6"></textarea>
 									</form>
-									
-									
-									
 								</section>
 						</div>
 					</div>
